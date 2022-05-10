@@ -1,0 +1,340 @@
+body {
+  cursor: cell;
+  background-color: #eff5f0;
+  height: 150rem;
+}
+
+.logo {
+  height: 37px;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+.autorizacia {
+  margin-left: 64rem;
+  height: 2.5rem;
+  position: absolute;
+  border-radius: 50%;
+}
+.autorizacia:hover {
+  background-color: #9dff00;
+  animation-delay: 2s;
+  transition-delay: 0s;
+  box-shadow: 0 5px 15px #a9e34b;
+}
+.nav-links li {
+  display: inline-block;
+  margin: 0 15px;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  position: static;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #868e96;
+}
+hr {
+  border-color: gray;
+}
+a:hover,
+a:active {
+  color: rgb(24, 226, 51);
+}
+.search {
+  height: 250px;
+  width: 84.5rem;
+  background-image: url(https://scontent.ftbs8-1.fna.fbcdn.net/v/t1.15752-9/255314676_213743117500987_3477129585794044747_n.jpg?_nc_cat=101&ccb=1-6&_nc_sid=ae9488&_nc_eui2=AeGW7wXLXalV8PK4iiDNxoQiyrxbxsOmsTnKvFvGw6axOfXln1tGQNJXixvJUZLiRiFTyxsPMLSbR2ksp6bdaMrb&_nc_ohc=zUXyDY1uMuoAX-ZSKTp&_nc_ht=scontent.ftbs8-1.fna&oh=03_AVIEXHcpoEhU1RR-tF71uGXKb_kE3G32e6Afv4p40zasWg&oe=629D2724);
+  background-position: center;
+  background-size: 90rem, 10rem;
+  color: green;
+}
+
+.ertaderti {
+  margin-left: 15rem;
+  color: rgb(48, 48, 48);
+}
+input {
+  margin-left: 15rem;
+  width: 50rem;
+  margin-top: 5rem;
+  height: 4rem;
+  border-radius: 10px;
+  border: solid 0px;
+  border: solid 2px;
+  border-color: green;
+  position: absolute;
+}
+.search-icons {
+  height: 25px;
+  margin-left: 16.5rem;
+  position: absolute;
+  margin-top: 6.3rem;
+  border-color: green !important;
+}
+.turisti {
+  margin-top: 15rem;
+  text-align: center;
+  color: rgb(0, 194, 0);
+}
+h5 {
+  text-align: center;
+  color: rgb(68, 68, 68);
+  margin-top: -10px;
+}
+
+/* ======დივები====== */
+
+.biletebi {
+  border: solid 1px;
+  height: 15rem;
+  width: 70rem;
+  background-color: white;
+  margin-left: 5.5rem;
+  border-radius: 0.9rem;
+  border-color: #868e96;
+}
+.turebi {
+  border: solid 0px;
+  height: 4.5rem;
+  width: 15rem;
+  border-radius: 1rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  background-color: #87c7f8;
+}
+.turebi2 {
+  border: solid 0px;
+  height: 4.5rem;
+  width: 15rem;
+  border-radius: 1rem;
+  margin-left: 20rem;
+  margin-top: -4.5rem;
+}
+.turebi3 {
+  border: solid 0px;
+  height: 4.5rem;
+  width: 15rem;
+  border-radius: 1rem;
+  margin-left: 37rem;
+  margin-top: -4.5rem;
+}
+.turebi4 {
+  border: solid 0px;
+  height: 4.5rem;
+  width: 15rem;
+  border-radius: 1rem;
+  margin-left: 54rem;
+  margin-top: -4.5rem;
+}
+.turebi5 {
+  border: solid 0px;
+  height: 4.5rem;
+  width: 15rem;
+  border-radius: 1rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+.turebi6 {
+  border: solid 0px;
+  height: 4.5rem;
+  width: 15rem;
+  border-radius: 1rem;
+  margin-left: 20rem;
+  margin-top: -4.5rem;
+}
+.turebi7 {
+  border: solid 0px;
+  height: 4.5rem;
+  width: 15rem;
+  border-radius: 1rem;
+  margin-left: 37rem;
+  margin-top: -4.5rem;
+}
+
+/* ====დივები==== */
+
+/* ====დივები-სტილი==== */
+.turebi2:hover {
+  background-color: #ff0606;
+  animation-delay: 2s;
+  transition-delay: 0.1s;
+  box-shadow: 0 5px 15px rgba(255, 0, 0, 0.5);
+}
+.turebi3:hover {
+  background-color: rgb(1, 204, 109);
+  animation-delay: 2s;
+  transition-delay: 0.1s;
+  box-shadow: 0 5px 15px rgba(0, 255, 157, 0.5);
+}
+.turebi4:hover {
+  background-color: rgb(255, 153, 0);
+  animation-delay: 2s;
+  transition-delay: 0.1s;
+  box-shadow: 0 5px 15px rgba(240, 216, 6, 0.5);
+}
+.turebi5:hover {
+  background-color: rgb(69, 13, 199);
+  animation-delay: 2s;
+  transition-delay: 0.1s;
+  box-shadow: 0 5px 15px rgba(9, 18, 155, 0.5);
+}
+.turebi6:hover {
+  background-color: rgb(29, 247, 255);
+  animation-delay: 2s;
+  transition-delay: 0.1s;
+  box-shadow: 0 5px 15px rgba(9, 133, 155, 0.5);
+}
+.turebi7:hover {
+  background-color: rgb(255, 28, 96);
+  animation-delay: 2s;
+  transition-delay: 0.1s;
+  box-shadow: 0 5px 15px rgba(255, 0, 149, 0.5);
+}
+/* ====დივები-სტილი==== */
+.bil-icon {
+  height: 2rem;
+  margin-top: 1.2rem;
+  margin-left: 1rem;
+}
+.mausi {
+  color: rgb(255, 230, 0);
+  font-weight: 500;
+  margin-top: -1.9rem;
+  margin-left: 3.5rem;
+}
+h4 {
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  margin-top: -1.9rem;
+  margin-left: 3.5rem;
+}
+a {
+  text-decoration: none;
+}
+.Shetavazeba {
+  text-align: center;
+  color: rgb(0, 194, 0);
+}
+
+/* შეთავაზებები */
+
+.img {
+  height: 20rem;
+  width: 30rem;
+  border-radius: 1rem;
+  display: inline-block;
+}
+
+.shetavazebebi1 {
+  border: solid 0px;
+  height: 25rem;
+  width: 30rem;
+  border-radius: 1rem;
+  margin-left: 4rem;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.img:hover {
+  transform: scale(1.09);
+  transition: 0.3s ease-in-out;
+}
+.misamarti {
+  color: #868e96;
+  margin-left: 10px;
+}
+h6 {
+  margin-top: -10px;
+  font-size: 14px;
+  margin-left: 10px;
+  color: #868e96;
+}
+.fasi {
+  margin-top: -90px;
+  color: rgb(0, 194, 0);
+  margin-left: 25rem;
+}
+.scroll {
+  overflow-x: scroll;
+  border: solid 0px;
+  white-space: nowrap;
+}
+.scroll::-webkit-scrollbar {
+  width: 50px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  border-radius: 1px;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#37b24d),
+    to(#69db7c)
+  );
+}
+.nav-links2 li {
+  display: inline-block;
+  margin: 0 15px;
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+}
+.creator {
+  color: #000;
+  margin-right: 55rem;
+  margin-top: 10px;
+}
+.shetavazebebi2 {
+  border: solid 0px;
+  height: 25rem;
+  width: 20rem;
+  border-radius: 1rem;
+  margin-left: 4rem;
+  overflow: hidden;
+  display: inline-block;
+}
+
+/* მთავარი გვერდის დასასრული */
+
+.body {
+  padding: 0;
+  margin: 0;
+  height: 40rem;
+}
+.main-div {
+  border: solid 1px black;
+  background-color: white;
+  height: 35rem;
+  width: 35rem;
+  margin-left: 25rem;
+  margin-top: -9px;
+}
+#avtoritation {
+  color: rgb(46, 44, 44);
+  font-weight: 500;
+  text-align: center;
+}
+.email {
+  border: solid 1px black;
+  height: 3rem;
+  width: 32rem;
+  margin-left: 1.5rem;
+  border-radius: 1rem;
+}
+.email-img {
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.input-email {
+  border: solid 0px;
+  height: 2rem;
+  width: 27rem;
+  margin-top: 5px;
+  margin-left: 10px;
+  position: absolute;
+}
